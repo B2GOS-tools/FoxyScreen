@@ -1,0 +1,32 @@
+{
+  "name": "FoxyScreen",
+  "description": "Firefox OS Custom Homescreen",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "role": "homescreen",
+  "developer": {
+    "name": "Rabbi Hossain",
+    "url": "https://2hr.me/"
+  },
+  "permissions": {
+    "mobileconnection": {},
+    "webapps-manage": {},
+    "systemXHR": {},
+    "settings": {
+      "access": "readwrite"
+    },
+    "open-remote-window": {},
+    "storage": {},
+    "geolocation": {},
+    "alarms": {},
+    "power": {}
+  },
+  "locales": {
+    "en-US": {
+      "name": "FoxyScreen",
+      "description": "Firefox OS Custom Homescreen"
+    }
+  },
+  "default_locale": "en-US",
+  "orientation": "portrait"
+}

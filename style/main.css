@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Bebas';
+  src: url('fonts/BebasNeue.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* { -moz-box-sizing: border-box; }
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-size: 100% auto;
+  overflow-y: scroll;
+  background-color: orange;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#icons {
+  width: 100%;
+  float: left;
+}
+
+@media only screen
+and (max-width : 320px) {
+  #time {
+    font-size: 9.5rem;
+  }
+}
